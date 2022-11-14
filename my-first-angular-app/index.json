@@ -39,7 +39,7 @@
     },
     "assets": {
       "host01": [
-        {"file": "**", "target": "~/cats"}
+        {"file": "**", "target": "~/assets"}
       ]
     }
   },
