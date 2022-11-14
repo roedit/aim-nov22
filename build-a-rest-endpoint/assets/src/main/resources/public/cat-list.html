@@ -1,0 +1,53 @@
+<script>
+    function loadCats() {
+        fetch('/cats')
+        .then(function (response) {
+            if (response.status !== 200) {
+                console.log('Looks like there was a problem. Status Code: ' + response.status);
+                return;
+            }
+            return response.json();
+        }).then(function (json) {
+            let myCatTable = '';
+            if (json.length === 0) {
+                myCatTable = '<tr><td colSpan="9" style="color: lightgrey">There are no cats available!</td></tr>';
+            } else {
+                json.forEach(aCat => myCatTable += buildCatRow(aCat));
+            }
+            document.getElementById("cat-list").innerHTML = myCatTable;
+        }).catch(function (error) {
+            console.log('Looks like there was an error: ' + error);
+        });
+
+        function buildCatRow(c) {
+            return `<tr>
+                        <td>${c.name}</td>
+                        <td>${c.age}</td>
+                        <td>${c.breed}</td>
+                        <td>${c.likes}</td>
+                        <td>${c.dislikes}</td>
+                    </tr>`;
+        }
+    }
+</script>
+
+<div>
+    <table border="1" cellpadding="5" width="70%">
+        <thead>
+        <tr>
+            <th align="left">Name</th>
+            <th align="left">Age</th>
+            <th align="left">Breed</th>
+            <th align="left">Likes</th>
+            <th align="left">Dislikes</th>
+        </tr>
+        </thead>
+        <tbody id="cat-list">
+        </tbody>
+    </table>
+</div>
+
+
+<script>
+    loadCats();
+</script>
