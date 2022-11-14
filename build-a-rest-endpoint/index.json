@@ -1,20 +1,24 @@
 {
-  "title": "Build a simple angular app",
-  "description": "A very simple tutorial demonstrating how to call some REST endpoints and display data",
+  "title": "Build a simple REST endpoint",
+  "description": "A very simple tutorial demonstrating how to create and call some REST endpoints",
   "difficulty": "Beginner",
   "time": "More than 1 hour, but less than 3!",
   "details": {
     "steps": [
       {
-        "title": "Step 1: Create a new component",
-        "text": "step1.md"
+        "title": "Step 1 a: Install the JSON Viewer plugin for Chrome",
+        "text": "step1a.md"
       },
       {
-        "title": "Step 2: Create a new service",
+        "title": "Step 1 b: Try some APIs",
+        "text": "step1b.md"
+      },
+      {
+        "title": "Step 2: Getting information about cats",
         "text": "step2.md"
       },
       {
-        "title": "Step 3: ",
+        "title": "Step 3",
         "text": "step3.md"
       },
       {
