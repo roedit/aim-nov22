@@ -1,0 +1,26 @@
+{
+    "title": "Build a simple Angular application",
+    "description": "Angular basic application",
+    "details": {
+      "intro": {
+        "text": "01 start.md"
+      },
+      "steps": [
+        {
+          "text": "02 step1.md"
+        },
+        {
+          "text": "03 step2.md"
+        },
+        {
+          "text": "04 step3.md"
+        }
+      ],
+      "finish": {
+        "text": "05 end.md"
+      }
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
