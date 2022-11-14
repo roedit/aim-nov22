@@ -6,12 +6,8 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 a: Install the JSON Viewer plugin for Chrome",
-        "text": "step1a.md"
-      },
-      {
-        "title": "Step 1 b: Try some APIs",
-        "text": "step1b.md"
+        "title": "Step 1: Start the application",
+        "text": "step1.md"
       },
       {
         "title": "Step 2: Getting information about cats",
