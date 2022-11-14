@@ -1,26 +1,26 @@
 {
     "title": "Build a simple Angular application",
-    "description": "Angular basic application",
+    "description": "aim november 2022",
     "details": {
-      "intro": {
-        "text": "01 start.md"
-      },
-      "steps": [
-        {
-          "text": "02 step1.md"
+        "intro": {
+            "text": "01start.md"
         },
-        {
-          "text": "03 step2.md"
-        },
-        {
-          "text": "04 step3.md"
+        "steps": [
+            {
+                "text": "02step1.md"
+            },
+            {
+                "text": "03step2.md"
+            },
+            {
+                "text": "04step3.md"
+            }
+        ],
+        "finish": {
+            "text": "05end.md"
         }
-      ],
-      "finish": {
-        "text": "05 end.md"
-      }
     },
     "backend": {
-      "imageid": "ubuntu"
+        "imageid": "ubuntu"
     }
-  }
+}
