@@ -7,5 +7,5 @@ apt install nodejs -y
 npm install -g @angular/cli 
 cd cats
 npm install
-npm run start
 clear && echo "Welcome to the tutorial, all the dependencies are installed, and you should be good to go!"
+npm run start
