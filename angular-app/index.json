@@ -1,6 +1,6 @@
 {
-  "title": "Build a simple REST endpoint",
-  "description": "A very simple tutorial demonstrating how to create and call some REST endpoints",
+  "title": "Build a simple angular app",
+  "description": "A very simple tutorial demonstrating how to call some REST endpoints",
   "difficulty": "Beginner",
   "time": "More than 1 hour, but less than 3!",
   "details": {
