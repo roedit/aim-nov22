@@ -1,41 +1,12 @@
-# Logging in to the Cat app
+# Javascript
+    6. Create cat variable
 
-    1. Build the software, and run the tests:
-
-`mvn install`{{execute}}
-
-
-    2. Run the software:
-
-`mvn spring-boot:run`{{execute}}
-
-
-    3. Test the software:
-
-* Send a correct password {{TRAFFIC_HOST1_8080}}/user/authenticate?email=bob&password=passw0rd
-* Send an incorrect password {{TRAFFIC_HOST1_8080}}/user/authenticate?email=bob&password=wrong
-
-
-    4. Test via the "dummy" frontend:
-
-Open {{TRAFFIC_HOST1_8080}}/
-
-
-    5. Now change the software - e.g. add other user accounts so more people can log in.
-
-`main/java/tutorial/rest/resources/UserResource.java`{{open}}
-
-
-    6. Stop the software
-Press <kbd>Ctrl</kbd>+<kbd>C</kbd> on the keyboard. Or just click this:
-
-`^C`{{execute ctrl-seq}}
-
-
-    7. And restart it:
-
-`mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Dspring.profiles.active=local"`{{execute}}
-
-    8. Test you can log in with the login details of the users you just added
-
-Open {{TRAFFIC_HOST1_8080}}/
+` 
+cats: Array<any> = [
+    { "name": "Luna", "age": 5, "breed": "Persian", "likes": "Chicken", "url":"https://cdn2.thecatapi.com/images/e4f.jpg" }, 
+    { "name": "Milo", "age": 3, "breed": "Bengal", "likes": "Chicken, Fish", "url":"https://cdn2.thecatapi.com/images/U3G5VhSBE.jpg" }, 
+    { "name": "Oliver", "age": 7, "breed": "Persian", "likes": "Fish, Chips", "url":"https://cdn2.thecatapi.com/images/5pp.jpg" }, 
+    { "name": "Bella", "age": 12, "breed": "Siamese", "likes": "Fish, Dogs", "url":"https://cdn2.thecatapi.com/images/MTU4NjA5NA.jpg" }, 
+    { "name": "Willow", "age": 1, "breed": "Savannah", "likes": "None", "url":"https://cdn2.thecatapi.com/images/VsxceZVop.jpg" }
+]; 
+`{{copy}}
