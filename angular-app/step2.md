@@ -32,7 +32,6 @@ Follow the steps below to create the website content.
 `{{copy}}
 
 Include the card component in the app.component.ts inside the content div
-`<!--<div class="content" role="main">
+`
   <app-card></app-card>
-
 `{{copy}}
