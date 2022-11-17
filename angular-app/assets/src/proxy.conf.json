@@ -1,0 +1,14 @@
+{
+    "/cats": {
+        "target": "http://aim.incubation.tech:8080",
+        "secure": true,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    },
+    "/images": {
+        "target": "https://api.thecatapi.com/v1",
+        "secure": true,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}
