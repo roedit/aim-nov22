@@ -1,6 +1,8 @@
 # HTML - Dynamic
+
     5. Update the html structure 
-`
+    
+```
 <div class="card-container">
     <div class="card" *ngFor="let cat of cats">
         <a href="#">
@@ -24,4 +26,4 @@
         </a>
     </div>
 </div>
-`{{copy}}
+```{{copy}}

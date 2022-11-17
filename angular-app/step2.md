@@ -5,7 +5,7 @@ Follow the steps below to create the website content.
 `ng g c card`{{execute}}
 
     2. Update the html structure 
-`
+```
 <div class="card-container">
     <div class="card" *ngFor="let cat of cats">
         <a href="#">
@@ -29,7 +29,7 @@ Follow the steps below to create the website content.
         </a>
     </div>
 </div>
-`{{copy}}
+```{{copy}}
 
 Include the card component in the app.component.ts inside the content div
 `

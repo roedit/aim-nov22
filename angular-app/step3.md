@@ -1,15 +1,17 @@
 # CSS
     2. Align component in the middle
-`
+```
 .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 16px;
 }
-`{{copy}}
+```{{copy}}
+
+
     3. Set image withing the card bounderies
-`
+```
 .card {
     width: 300px;
     margin: 30px auto;
@@ -39,9 +41,10 @@ img {
     transition-property: filter width;
     transition-duration: .3s;
 }
-`{{copy}}
+```{{copy}}
+
     4. Additional styles to make the card nicer
-`
+```
 .card a {
     color: #333;
     text-decoration: none;
@@ -73,4 +76,4 @@ img {
 .card-excerpt {
     color: #777;
 }
-`{{copy}}
+```{{copy}}
