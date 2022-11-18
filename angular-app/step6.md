@@ -5,10 +5,17 @@ You can check the response by calling:
 
     5. Add the HttpClientModule in the app.module.ts. This module will allow us to do the HTTP request and retrieve data from the endpoint above.
 
-```  imports: [
+Import the module:
+```
+import { HttpClientModule } from '@angular/common/http';
+```{{copy}}
+
+Update the imports:
+```  
+imports: [
     BrowserModule,
     HttpClientModule
-  ]
+]
 ```
 
     6. Create a new service
@@ -16,6 +23,12 @@ You can check the response by calling:
 `ng g s card/card`{{execute}}
 
 The service should be imported added to the module providers in app.module.ts
+Import the service:
+```
+ import{ CardService } from './card/card.service';
+```{{copy}}
+
+Module providers:
 ```
   providers: [ CardService ],
 ```
@@ -36,14 +49,19 @@ The service should be imported added to the module providers in app.module.ts
 
 
    8. Update ``card.component.ts`` to request data from a service:
+Import the service:
+```
+import { CardService } from './card.service';
+```{{copy}}
 
+Component scope:
 ``` 
   cats: Array<any> = [];
 
   constructor(private cardService: CardService) { }
 
   ngOnInit(): void {
-    this.cardService.getCats().subscribe((cats) => this.cats = cats);
+    this.cardService.getCats().subscribe((cats: any) => this.cats = cats);
   }
 ```{{copy}}
 
