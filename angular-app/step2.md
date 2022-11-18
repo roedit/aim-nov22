@@ -1,10 +1,10 @@
 # HTML
 Follow the steps below to create the website content.
-    1. Generate new card component
+    1. Generate new angular component named card by running the fallowing angularcli command:
 
 `ng g c card`{{execute}}
 
-    2. Update the html structure 
+    2. Update the html structure for the newly created component on the file card.component.html to include the fallowing html:
 ```
 <div class="card-container">
     <div class="card" *ngFor="let cat of cats">
@@ -31,7 +31,7 @@ Follow the steps below to create the website content.
 </div>
 ```{{copy}}
 
-Include the card component in the app.component.ts inside the content div
+Use the card component by updating the app.component.ts by adding the fallowing in the "content" div:
 `
   <app-card></app-card>
 `{{copy}}

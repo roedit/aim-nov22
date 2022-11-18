@@ -1,5 +1,5 @@
 # Javascript
-    6. Create cat variable
+    6. To see the content updating let's create a new variable that will mock what a backend response will be like.
 
 ``` 
 cats: Array<any> = [

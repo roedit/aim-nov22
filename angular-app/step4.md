@@ -1,6 +1,6 @@
 # HTML - Dynamic
 
-    5. Update the html structure 
+    5. Update the html structure of the card.component.html to the fallowing: 
     
 ```
 <div class="card-container">
@@ -27,3 +27,5 @@
     </div>
 </div>
 ```{{copy}}
+
+This bounds values from the card.component.ts to the html and updates dynamicly the values.

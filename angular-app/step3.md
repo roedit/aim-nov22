@@ -1,5 +1,5 @@
 # CSS
-    2. Align component in the middle
+    2. Add css in the card.component.ts to align the card in the middle of the screen:
 ```
 .card-container {
     display: flex;
