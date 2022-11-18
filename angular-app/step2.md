@@ -31,7 +31,7 @@ Follow the steps below to create the website content.
 </div>
 ```{{copy}}
 
-Use the card component by updating the app.component.ts by adding the fallowing in the "content" div:
+Use the card component by updating the app.component.html by adding the fallowing in the "content" div:
 `
   <app-card></app-card>
 `{{copy}}
