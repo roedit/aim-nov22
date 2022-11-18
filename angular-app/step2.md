@@ -7,7 +7,7 @@ Follow the steps below to create the website content.
     2. Update the html structure for the newly created component on the file card.component.html to include the fallowing html:
 ```
 <div class="card-container">
-    <div class="card" *ngFor="let cat of cats">
+    <div class="card">
         <a href="#">
             <div class="card-image">
                 <img src="https://cdn2.thecatapi.com/images/U3G5VhSBE.jpg" alt="cat-img" />
